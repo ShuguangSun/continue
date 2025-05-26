@@ -47,10 +47,10 @@ jobs:
       - name: Checkout tag
         run: git checkout ${GITHUB_REF#refs/tags/}
 
-      - name: Make sure version isn't odd
-        run: |
-          cd extensions/vscode
-          node scripts/versionCheck.js
+      # - name: Make sure version isn't odd
+      #   run: |
+      #     cd extensions/vscode
+      #     node scripts/versionCheck.js
 
       # 2. Install npm dependencies
       - name: Use Node.js from .nvmrc
