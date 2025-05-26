@@ -173,6 +173,4 @@ jobs:
           tag_name: ${{ github.ref_name }}
           files: |
             vsix-artifacts/*.vsix
-          token: ${{ secrets.CI_GITHUB_TOKEN }}
-          repository: continuedev/continue
 
