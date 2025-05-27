@@ -6,7 +6,7 @@ export const DEFAULT_AUTOCOMPLETE_OPTS: TabAutocompleteOptions = {
   prefixPercentage: 0.3,
   maxSuffixPercentage: 0.2,
   debounceDelay: 350,
-  modelTimeout: 150,
+  modelTimeout: 350,
   multilineCompletions: "auto",
   // @deprecated TO BE REMOVED
   slidingWindowPrefixPercentage: 0.75,

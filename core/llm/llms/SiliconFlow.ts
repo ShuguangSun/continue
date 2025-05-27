@@ -34,6 +34,7 @@ class SiliconFlow extends OpenAI {
         prompt: prefix,
         suffix,
         // max_tokens: options.maxTokens,
+        completion_tokens: options.maxTokens,
         temperature: options.temperature,
         top_p: options.topP,
         frequency_penalty: options.frequencyPenalty,
